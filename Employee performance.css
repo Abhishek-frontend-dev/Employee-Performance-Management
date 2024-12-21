@@ -191,6 +191,11 @@
   .step-img {
     flex: 1;
     max-width: 40%;
+    transition: all ease 0.5s;
+  }
+  .step-img:hover{
+    transform: scale(1.3);
+    cursor: pointer;
   }
   
   .step-img img {
@@ -501,6 +506,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all ease 0.5s;
+}
+
+.left:hover{
+    transform: scale(1.3);
+    cursor: pointer;
 }
 
 .left img {
